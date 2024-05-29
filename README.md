@@ -1,24 +1,7 @@
-# README
+CRUD Rails:
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Versão Ruby 3.3.1
+Versão Rails 7.1.3.3
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Para utilizar tenha o Ruby instalado em sua máquina e execute:
+`bundle install && rails db:migrate db:seed && rails server`
